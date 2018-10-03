@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Course Catalog</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <header id="site-header">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navabar-header">
+          <a href="/" class="navbar-brand">Course Catalog</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="/events">Events</a></li>
+          <li><a href="/events/create">Create</a></li>
+        </ul>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+<main id="site-main">
+  <div class="container">
+    <%- body %>
+  </div>
+</main>
+
+  <!-- footer -->
+  <footer id="site-footer">
+    Copyright &copy; 2018 IA MED
+  </footer>
+</body>
+
+</html>
